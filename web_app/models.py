@@ -2,6 +2,16 @@ from datetime import datetime
 from web_app import db, login_manager
 from flask_login import UserMixin
 
+# DB QUERY
+# from web_app.models import Post (or any other db)
+# post = post.query.all()
+# for post in posts: print(post)
+# 
+# db.session.add(XXX)
+# db.session.commit()
+#
+
+
 
 @login_manager.user_loader
 def load_user(user_id):

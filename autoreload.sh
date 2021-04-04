@@ -12,6 +12,7 @@ curr_size=`du -bs . | awk '{print $1}'`
 
 if (( curr_size != old_size ))
     then
+        echo "**********************************"
         pkill -f "python3"
         
 #        tput bel
