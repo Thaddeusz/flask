@@ -1,0 +1,10 @@
+flask
+flask_sqlalchemy
+flask_bcrypt
+flask_login
+flask_mail
+datetime
+itsdangerous
+flask_wtf
+wtforms
+PIL
